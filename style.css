@@ -1,7 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
-    /*justify-content: space-between;*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 header, footer {
@@ -15,7 +14,6 @@ header, footer {
 
 header {
     gap: 100px;
-    padding: 10px;
 }
 
 header > * {
@@ -50,15 +48,136 @@ a {
 .awesome {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #1F2937;
+    gap: 3em;
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.description > p {
+    font-size: 18px;
+    color: rgba(229, 231, 235,0.7);
+    margin-top: 0px;
+}
 .awesome > img {
-    height: 200px;
-    weight: 400px;
+    height: 250px;
+    width: 500px;
     flex-basis: auto;
 }
 
 .description {
+    height: 250px;
     max-width: 400px;
     flex-basis: auto;
+}
+
+button {
+    background-color: #3882F6;
+    width: 130px;
+    height: 45px;
+    color:#E5E7EB;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    color:#1F2937;
+}
+
+.information, .quote {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+li > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+li > p {
+    width: 150px;
+    color:#1F2937;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+}
+
+.quote > * {
+    width: 800px;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call {
+    background-color:#3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.action-call > button {
+    border: 3px solid #E5E7EB;
+}
+
+.text > h4 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #E5E7EB;
+
+}
+
+.text > p {
+    font-size: 18px;
+    margin-top: 0px;
+    color: rgba(229, 231, 235,0.7);
 }
